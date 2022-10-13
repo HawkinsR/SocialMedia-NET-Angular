@@ -116,28 +116,3 @@
             ('Hey! I saw that one! It was on my required viewing list! I didn''t get the thing with the horse though.', null, 4, 4),
             ('If you just grew some muscles, you could just BURST out of those puny suits wheneer you like! Nothing can withstand the strength of a god! Ask me about my fitness routine, I dare you!', null, 3, 4);
     GO
-
-
-
-
-
-
-
-Select * FROM [smd].[Users];
-SELECT * FROM [smd].[Posts];
-SELECT * FROM [smd].[Posts] WHERE [PostReference] IS null;
-SELECT * FROM [smd].[Posts] WHERE [PostId] = 3;
-
-SELECT [PostText], [PostImageUrl], [PostReference], [UserId], [UserFirstName], [UserLastName], [UserEmail]
-    FROM [smd].[Posts]
-    JOIN [smd].[Users] ON [smd].[Posts].[PostAuthorId] = [smd].[Users].[UserId];
-
-SELECT [PostText], [PostImageUrl], [PostReference], [UserId], [UserFirstName], [UserLastName], [UserEmail]
-                            FROM [smd].[Posts]
-                            JOIN [smd].[Users] 
-                                ON [smd].[Posts].[PostAuthorId] = [smd].[Users].[UserId]
-                            WHERE [PostId] = 3;
-
-SELECT [UserId], [UserFirstName], [UserLastName], [UserEmail]
-    FROM [smd].[Users]
-    WHERE [UserPassword] = 'B1ackP@nther' AND [UserEmail] = 'KingKitty@wakanda.gov';
