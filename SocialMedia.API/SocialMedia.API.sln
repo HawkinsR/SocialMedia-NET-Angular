@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMedia.API", "SocialMedia.API\SocialMedia.API.csproj", "{D76405FF-81B4-4086-A683-3A8DEF0840FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMedia.Data", "SocialMedia.Data\SocialMedia.Data.csproj", "{4B49889A-AC0D-423A-8C4F-6969D6BEE003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMedia.Models", "SocialMedia.Models\SocialMedia.Models.csproj", "{280BB3B5-3915-463C-B78E-9635C8B49B37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D76405FF-81B4-4086-A683-3A8DEF0840FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76405FF-81B4-4086-A683-3A8DEF0840FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76405FF-81B4-4086-A683-3A8DEF0840FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76405FF-81B4-4086-A683-3A8DEF0840FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B49889A-AC0D-423A-8C4F-6969D6BEE003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B49889A-AC0D-423A-8C4F-6969D6BEE003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B49889A-AC0D-423A-8C4F-6969D6BEE003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B49889A-AC0D-423A-8C4F-6969D6BEE003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280BB3B5-3915-463C-B78E-9635C8B49B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280BB3B5-3915-463C-B78E-9635C8B49B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280BB3B5-3915-463C-B78E-9635C8B49B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280BB3B5-3915-463C-B78E-9635C8B49B37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD4E0EC9-476C-4B27-AFF5-7F059F611F3C}
+	EndGlobalSection
+EndGlobal
